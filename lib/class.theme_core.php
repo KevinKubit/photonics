@@ -34,7 +34,6 @@ class theme_core {
 			));
 		}
 		add_action('admin_print_styles', array(&$this, 'handle_admin_CSS'));
-		add_action('init', array(&$this, 'register_theme_menus'));
 		add_action('init', array(&$this, 'remove_head_links'));
 		add_action('post_edit_form_tag', array(&$this, 'add_post_enctype'));
 		remove_action('wp_head', 'wp_generator');

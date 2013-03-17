@@ -2,12 +2,12 @@
 
 define('SEARCH_PAGE_ID', 5);
 
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/class.theme_util.php');
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/class.theme_core.php');
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/custom_post_types/class.publication_post_type.php');
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/custom_post_types/class.contact_post_type.php');
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/custom_post_types/class.lab_item_post_type.php');
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/custom_post_types/class.safety_resource_post_type.php');
+require_once(TEMPLATEPATH . '/lib/class.theme_util.php');
+require_once(TEMPLATEPATH . '/lib/class.theme_core.php');
+require_once(TEMPLATEPATH . '/lib/custom_post_types/class.publication_post_type.php');
+require_once(TEMPLATEPATH . '/lib/custom_post_types/class.contact_post_type.php');
+require_once(TEMPLATEPATH . '/lib/custom_post_types/class.lab_item_post_type.php');
+require_once(TEMPLATEPATH . '/lib/custom_post_types/class.safety_resource_post_type.php');
 
 $core = new theme_core();
 new publication_post_type();
@@ -17,7 +17,7 @@ new safety_resource_post_type();
 
 
 
-require_once(ABSPATH . '/wp-content/themes/Photonics/lib/class.theme_search.php');
+require_once(TEMPLATEPATH . '/lib/class.theme_search.php');
 new theme_search();
 
 
