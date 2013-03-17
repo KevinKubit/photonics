@@ -16,22 +16,7 @@ class theme_core {
 				'before_title'  => '<h2>',
 				'after_title'   => '</h2>'
 			));
-			register_sidebars( 1,
-				array(
-				'name' => 'header-nav-menu',
-				'before_widget' => '<div id="%1$s" class="widget %2$s">',
-				'after_widget' => '</div>',
-				'before_title' => '<h2 class="widgettitle">',
-				'after_title' => '</h2>'
-			));
-			register_sidebars( 1,
-				array(
-				'name' => 'front-page-description',
-				'before_widget' => '<div id="%1$s" class="widget %2$s">',
-				'after_widget' => '</div>',
-				'before_title' => '<h2 class="widgettitle">',
-				'after_title' => '</h2>'
-			));
+			
 		}
 		add_action('admin_print_styles', array(&$this, 'handle_admin_CSS'));
 		add_action('init', array(&$this, 'remove_head_links'));

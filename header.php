@@ -41,8 +41,13 @@
    <header>
        <div class="header-wrap">
 	  <nav class="menu">
-		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("header-nav-menu") ) : ?>
-		<?php endif; ?>
+			<ul>
+
+			<li class="home"><a href="#" alt="Home">Home</a></li>
+
+			<li class="search"><a href="#" alt="Search">Search</a></li>
+
+			</ul>
 	  </nav>
 		<div class="logo">
 			 Photonics Research Laboratory
