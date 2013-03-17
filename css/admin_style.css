@@ -1,0 +1,17 @@
+.postbox .form-table .description { float:left; margin-left:15px; }
+.postbox .form-table input, .postbox .form-table select, .postbox .form-table textarea { float:left; }
+.postbox .form-table input[type=checkbox] { float:none; }
+.postbox .form-table p.current-file{ float:none; clear:both; padding-top:6px; }
+
+.postbox .supplemental-file-table thead th { font-weight:bold; }
+
+.postbox .new-file-table { border:1px solid #333; padding:5px; margin-top:20px; }
+.postbox .new-file-table thead { text-decoration:underline; }
+.postbox .new-file-table label { font-weight:bold }
+
+.postbox input.year-field { width:45px; margin-left:10px; }
+.postbox input.day-field { width:30px; margin-left:10px; }
+
+.postbox .private-form-table { width:100%; }
+.postbox .private-form-table label { display:block; font-weight:bold; }
+.postbox .private-form-table textarea { width:90%; margin:7px 0 7px 0; height:100px; }

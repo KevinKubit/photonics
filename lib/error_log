@@ -1,0 +1,5 @@
+[05-Aug-2011 14:51:24] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/tlovett2/public_html/sandbox/shinberglevinas/wp-content/themes/shinberglevinas/lib/class.theme_core.php on line 2
+[05-Aug-2011 14:51:26] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/tlovett2/public_html/sandbox/shinberglevinas/wp-content/themes/shinberglevinas/lib/class.theme_core.php on line 2
+[05-Aug-2011 14:52:26] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/tlovett2/public_html/sandbox/shinberglevinas/wp-content/themes/shinberglevinas/lib/class.theme_core.php on line 2
+[05-Aug-2011 14:52:42] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/tlovett2/public_html/sandbox/shinberglevinas/wp-content/themes/shinberglevinas/lib/class.theme_core.php on line 2
+[05-Aug-2011 14:53:26] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/tlovett2/public_html/sandbox/shinberglevinas/wp-content/themes/shinberglevinas/lib/class.theme_core.php on line 2

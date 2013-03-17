@@ -1,0 +1,316 @@
+/*   
+Theme Name: Photonics
+Theme URI: http://www.taylorlovett.com
+Description: This is the main theme for photonics.umd.edu.
+Author: Taylor Lovett
+Author URI: http://www.taylorlovett.com
+Version: 1
+*/
+
+@media screen {
+
+* { margin: 0; padding: 0; }
+body { background-color:black; padding:0; margin:0; font: 14px/1.4 Arial, Geneva, Georgia, Serif }
+.screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
+.clear { clear: both; }
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+
+a { color:#039; text-decoration:none; }
+a img { border:0; }
+a:hover { color:#990000 }
+#wrap { background:url(images/bg-top.jpg) repeat-x top left; width:100%; }
+
+#inner-wrap { width:961px; margin: 0 auto; }
+
+#top { background:url(images/header-background.gif) no-repeat top left; width:961px; margin:0 auto; height:80px; }
+
+#page { 
+    background-color:#fff;
+    border-left:1px solid #d7d7d7;
+    border-right:1px solid #d7d7d7;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+#page-top { background: url(images/main-t.png) top center no-repeat; width:100%; background-color: #ddd4bd; }
+#page-top .left { background: url(images/main-tl.png) 0 0 no-repeat; }
+#page-top .right { background: url(images/main-tr.png) 100% 0 no-repeat; height: 16px; }
+
+#page-bottom { background: url(images/main-b.png) top center no-repeat; width:100%; margin-bottom: 6px; clear:both; }
+#page-bottom .left { background: url(images/main-bl.png) 0 0 no-repeat; }
+#page-bottom .right { background: url(images/main-br.png) 100% 0 no-repeat; height: 16px; }
+
+header {
+    border-bottom:1px solid #000;
+    height: 74px;
+    padding: 0 10px 0 15px;
+    background-color: #ddd4bd;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
+header .logo { color: #990000; font-size: 270%; height: 100%; }
+header .sublogo { color: #352A24; margin-top: -8px;}
+header a { color: #59463c; }
+header .menu { width:148px; float:right; border-left: 1px solid black; padding: 3px 0 0 20px; height: 74px; }
+header .menu ul li { list-style-type: none; font-size: 120%; margin: 4px 0 0 -30px; }
+header .menu ul li:first-child { margin-top: 5px; }
+h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; color:#2C68A6; font-size:1.5em; }
+h2, h3 { font-size:1.2em; }
+
+h2.contacts-header { font-size:1em; background-color:#f8f8f8; color:#666; padding:4px 0px 4px 6px; }
+
+p { margin: 0 0 10px 0; }
+ul, ol { margin-left: 25px; }
+textarea { font-family:inherit; font-size:inherit; }
+	
+ol.commentlist { list-style: none; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor { }
+ol.commentlist li.byuser { }
+ol.commentlist li.comment-author-admin { }
+ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 10px; }
+ol.commentlist li.comment div.comment-author { }
+ol.commentlist li.comment div.vcard { }
+ol.commentlist li.comment div.vcard cite.fn { font-style: normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url { }
+ol.commentlist li.comment div.vcard img.avatar { float:right; margin: 0 0 10px 10px; }
+ol.commentlist li.comment div.vcard img.avatar-32 { }
+ol.commentlist li.comment div.vcard img.photo { }
+ol.commentlist li.comment div.vcard span.says { }
+ol.commentlist li.comment div.commentmetadata { }
+ol.commentlist li.comment div.comment-meta { font-size: 10px; }
+ol.commentlist li.comment div.comment-meta a { color: #ccc; }
+ol.commentlist li.comment p { }
+ol.commentlist li.comment ul { }
+ol.commentlist li.comment div.reply { font-size: 11px; }
+ol.commentlist li.comment div.reply a { font-weight: bold; }
+ol.commentlist li.comment ul.children { list-style: none; margin: 10px 0 0; }
+ol.commentlist li.comment ul.children li { }
+ol.commentlist li.comment ul.children li.alt { }
+ol.commentlist li.comment ul.children li.bypostauthor { }
+ol.commentlist li.comment ul.children li.byuser { }
+ol.commentlist li.comment ul.children li.comment { }
+ol.commentlist li.comment ul.children li.comment-author-admin { }
+ol.commentlist li.comment ul.children li.depth-2 { border-left: 5px solid #555; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left: 5px solid #999; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left: 5px solid #bbb; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-5 { }
+ol.commentlist li.comment ul.children li.odd { }
+ol.commentlist li.even { background: #fff; }
+ol.commentlist li.odd { background: #f6f6f6; }
+ol.commentlist li.parent { border-left: 5px solid #111; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even { }
+ol.commentlist li.thread-odd { }
+
+form { }
+input[type=text] { }
+textarea { }
+
+#sidebar {
+    width:179px;
+    background-color: #73746b;
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    font-size: 120%;
+    right: -1px;
+    bottom: 0;
+    padding: 10px 0 0 0;
+    color: #fff;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+	min-height: 300px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+#sidebar a {
+    color: #fff
+}
+
+#content { 
+	width:765px; 
+	float:left; 
+	padding: 10px; 
+	min-height: 300px;
+}
+	
+.content-clear { 
+	height:10px; clear:both; 
+}
+
+.content-wrap { 
+	position: relative; 
+}
+
+footer { 
+	color:#fff; 
+	font-size:1em; 
+	text-align:left;
+	padding: 10px 0 20px 175px;
+
+}
+
+/* BELOW is added by K */
+
+
+.pad_right {
+	padding-left: 7px;
+}
+
+#divleft {
+	float: left; 
+	width: 56.5%;
+	text-align:right; 
+}
+
+#divright {
+	margin-left: 59%; 
+	width: 41%;
+	text-align: left;
+}
+
+.home-image-box {
+	border: 1px solid #7a0000;
+    	width: 99.3%;
+	max-height: 317px;
+	margin: 0 0 10px 0; 
+}
+
+.caption-pad {
+	padding: 15px 6px 0 6px;
+	float: right;
+	width: 270px;
+	font-size: 16px;
+}
+
+.home-news {
+	border: 1px solid #7a0000;
+    	width: 59%;
+	min-height: 225px;
+}
+
+.no-margins p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.home-contact {
+    border: 1px solid #7a0000;
+    width: 39%; 
+	float: right; 
+	margin-right: 0.5%;
+	min-height: 225px;
+}
+
+/*ABOVE is added by K */
+
+.home-module h2 {
+    background-color: #7a0000;
+    color: #fff;
+}
+
+.publications-list li, .lab_items-list li, .safety_resources-list li  { margin-bottom:10px; }
+.publications-list li p, .lab_items-list li p, .safety_resources-list li p { margin-bottom:3px; }
+.publication .meta, .contact .meta, .lab_item .meta, .safety_resource .meta { margin-bottom:6px; }
+.publication .meta span, .contact .meta span, .lab_item .meta span, .safety_resource .meta span { font-weight:bold; margin-right:6px;  }
+.publication .abstract, .contact .entry, .lab_item .entry, .safety_resource .entry { border:1px solid #efefef;  padding:10px; width:92%; margin-top:20px; margin-bottom:20px; }
+.publication .abstract span, .contact .entry span, .lab_item .entry span, .safety_resource .entry span { font-weight:bold; }
+
+.contact .private-info {
+	border:1px solid #efefef;  padding:10px; width:92%; margin-top:20px; margin-bottom:20px;
+}
+
+.contact .private-info .title {
+	font-weight:bold; margin-bottom: 8px;
+}
+
+.supplemental_files_title { font-weight:bold; margin-bottom:5px; }
+.supplemental_files li div { margin-left:20px; }
+
+.contact .photo { float:left; width:180px; margin-bottom:25px; }
+
+.contact .entry { clear:both; }
+
+ul.contacts-list {
+	list-style-type:none;
+	margin-bottom:20px;
+}
+ul.contacts-list li { margin-bottom:10px; position:relative; }
+ul.contacts-list li { padding:0 }
+ul.contacts-list li.has-image .text { padding:10%; }
+ul.contacts-list li .text { margin-left:180px; padding-left:10%; }
+ul.contacts-list li .name { margin-bottom:20px; }
+ul.contacts-list li .photo { float:left; }
+ul.contacts-list li .photo-placeholder { float:left; position:absolute; top:0; bottom:0;  margin:auto; text-align:center; width:160px; height:30px; }
+
+form.advanced-search {
+	padding:0; width:92%; margin-top:20px; margin-bottom:20px; display:block;
+}
+
+form.advanced-search fieldset {
+	border:0;
+}
+form.advanced-search legend { color:#666; font-size:.8em; }
+form.advanced-search select, input, textarea { vertical-align:top; margin-left:6px; }
+form.advanced-search textarea { width:230px; height:100px; }
+form.advanced-search input { width:230px; }
+form.advanced-search fieldset { margin-bottom:10px; margin-top:10px; border:1px solid #666; padding:10px;   }
+form.advanced-search fieldset label { vertical-align:top; margin-right:10px; }
+form.advanced-search fieldset.category-options { display:none; }
+form.advanced-search fieldset.category-options label { display:block; margin-bottom:10px; }
+form.advanced-search fieldset.sorting-options label { display:inline; margin-bottom:10px; }
+form.advanced-search #advanced-search-button { width:auto; padding:4px; }
+
+.ajax-search {
+	display:none;
+	background-color:#f5f5f5;
+	border:1px solid #ccc;
+	padding:6px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.ajax-search .basic .advanced { float:right; font-size:.7em; padding-top:6px; }
+.ajax-search .basic input.search { width:250px; padding:3px; }
+.ajax-search .basic input.button { padding:3px }
+
+.navigation { margin-top:30px; text-align:right; }
+.navigation div { display:inline; padding-right:10px; }
+}
+
+
+@media print {
+
+.do-not-print { display: none; }
+#comments { page-break-before: always; }
+
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Garamond,"Times New Roman", serif; color: #000; background: none; font-size: 12pt; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1 { font-size: 19pt; }
+h2 { font-size:17pt; }
+h3 { font-size:15pt; }
+h4,h5,h6 { font-size:12pt; }
+code { font: 10pt Courier, monospace; } 
+blockquote { margin: 1.3em; padding: 1em; }
+img { display: block; margin: 1em 0; }
+a img { border: none; }
+table { margin: 1px; text-align:left; }
+th { border-bottom: 1px solid #333;  font-weight: bold; }
+td { border-bottom: 1px solid #333; }
+th, td { padding: 4px 10px 4px 0; }
+caption { background: #fff; margin-bottom: 2em; text-align: left; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; } 
+a { text-decoration: none; color: black; }
+	
+} /* END print media */
