@@ -52,6 +52,7 @@ header {
     -webkit-border-top-left-radius: 10px;
     -webkit-border-top-right-radius: 10px;
 }
+
 header .logo { color: #990000; font-size: 270%; height: 100%; }
 header .sublogo { color: #352A24; margin: -8px 0 0 2px;}
 header a { color: #59463c; }
@@ -60,10 +61,10 @@ header .menu ul li { list-style-type: none; font-size: 120%; }
 header .menu ul li a { margin: 0 0 0 24px; }
 header .home { background:url(images/home-icon.png) center left no-repeat; margin: 9px 0 0 -35px; }
 header .search { background:url(images/search-icon.png) center left no-repeat; margin: 5px 0 0 -35px; }
-h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; color:#2C68A6; font-size:1.5em; }
-h2, h3 { font-size:1.2em; }
+h1 { clear:both; font-size:1.1em; font-weight:650; color:#FDF0CC; background-color:#7A0000; padding: 2px 2px 2px 8px; margin: 0 7px 0 0; }
+h2, h3 { font-weight: normal; margin: 0 0 10px 0; color:#2C68A6; font-size:1.2em; }
 
-h2.contacts-header { font-size:1em; background-color:#f8f8f8; color:#666; padding:4px 0px 4px 6px; }
+h2.contacts-header { clear:both; font-size:1em; font-weight:bold; color:#990000; padding:4px 0px 4px 2px; }
 
 p { margin: 0 0 10px 0; }
 ul, ol { margin-left: 25px; }
@@ -127,7 +128,7 @@ textarea { }
     color: #fff;
     border-bottom-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 #sidebar ul {
@@ -147,7 +148,7 @@ textarea { }
 	width:765px; 
 	float:left; 
 	padding: 10px; 
-	min-height: 300px;
+	min-height: 400px;
 }
 
 #content a {
@@ -259,21 +260,17 @@ footer {
 .supplemental_files_title { font-weight:bold; margin-bottom:5px; }
 .supplemental_files li div { margin-left:20px; }
 
-.contact .photo { float:left; width:180px; margin-bottom:25px; }
+.contact .photo { float:left; height:150px; width:120px; margin-bottom:15px; }
 
-.contact .entry { clear:both; }
+.contact .entry { float:left; } 
 
-ul.contacts-list {
-	list-style-type:none;
-	margin-bottom:20px;
-}
-ul.contacts-list li { margin-bottom:10px; position:relative; }
-ul.contacts-list li { padding:0 }
-ul.contacts-list li.has-image .text { padding:10%; }
-ul.contacts-list li .text { margin-left:180px; padding-left:10%; }
-ul.contacts-list li .name { margin-bottom:20px; }
-ul.contacts-list li .photo { float:left; }
-ul.contacts-list li .photo-placeholder { float:left; position:absolute; top:0; bottom:0;  margin:auto; text-align:center; width:160px; height:30px; }
+ul.contacts-list { list-style-type:none; margin:0 0 20px 0; }
+ul.contacts-list li { float:left; margin:0 0 10px 0; position:relative; min-width:360px; }
+ul.contacts-list li.has-image .text { float:left; min-height: 150px; padding-left:10px; }
+ul.contacts-list li .text {  float:left; padding-left:10px; }
+ul.contacts-list li .name { margin-bottom:10px; }
+ul.contacts-list li .photo { float:left; width:120px; height:150px; }
+ul.contacts-list li .photo-placeholder { float:left; top:0; bottom:0;  margin:auto; text-align:center; width:120px; height:150px; }
 
 form.advanced-search {
 	padding:0; width:92%; margin-top:20px; margin-bottom:20px; display:block;
