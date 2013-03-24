@@ -23,7 +23,7 @@ class theme_core {
 		add_action('post_edit_form_tag', array(&$this, 'add_post_enctype'));
 		remove_action('wp_head', 'wp_generator');
 		add_theme_support('post-thumbnails');
-		set_post_thumbnail_size(180, 220);
+		set_post_thumbnail_size(120, 150);
 		add_action('edit_post', array(&$this, 'theme_save_custom_posttype'));
 		add_action('edit_page_form', array(&$this, 'theme_save_custom_posttype'));
 		add_filter('upload_mimes', array(&$this, 'custom_upload_mimes'));
