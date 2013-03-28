@@ -61,7 +61,7 @@ header .menu ul li { list-style-type: none; font-size: 120%; }
 header .menu ul li a { margin: 0 0 0 24px; }
 header .home { background:url(images/home-icon.png) center left no-repeat; margin: 9px 0 0 -35px; }
 header .search { background:url(images/search-icon.png) center left no-repeat; margin: 5px 0 0 -35px; }
-h1 { clear:both; font-size:1.1em; font-weight:650; color:#FDF0CC; background-color:#7A0000; padding: 2px 2px 2px 8px; margin: 0 7px 0 0; }
+h1 { clear:both; font-size:1.1em; font-weight:650; color:#FDF0CC; background-color:#7A0000; padding: 2px 2px 2px 8px; margin: 0 7px 0 0; text-transform:uppercase; }
 h2, h3 { font-weight: normal; margin: 0 0 10px 0; color:#2C68A6; font-size:1.2em; }
 
 h2.contacts-header { clear:both; font-size:1em; font-weight:bold; color:#990000; padding:4px 0px 4px 2px; }
