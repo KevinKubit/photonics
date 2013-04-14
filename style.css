@@ -53,7 +53,7 @@ header {
     -webkit-border-top-right-radius: 10px;
 }
 
-header .logo { color: #990000; font-size: 270%; height: 100%; }
+header .logo { color: #990000; font-size: 270%; }
 header .sublogo { color: #352A24; margin: -8px 0 0 2px;}
 header a { color: #59463c; }
 header .menu { width:148px; float:right; border-left: 1px solid black; padding: 3px 0 0 20px; height: 74px; }
